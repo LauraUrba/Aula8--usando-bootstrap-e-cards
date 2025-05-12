@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="books.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="../assets/js/color-modes.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+
+    <title>Books e Páginas</title>
+</head>
+<body>
+    <div class="b-example-divider"></div> 
+    <header class="p-3 text-bg-dark">
+         <div class="container"> 
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"> 
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"> 
+                    <img src="Logo.png" alt="Minha Logo" width="40" height="32">
+                 </a> 
+                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"> 
+                    <li>
+                        <a href="#" class="nav-link px-2 text-secondary">Principal</a>
+                    </li> 
+                    <li><a href="#" class="nav-link px-2 text-white">Gêneros</a></li>
+                     <li><a href="#" class="nav-link px-2 text-white">Comunidades</a></li> 
+                     <li><a href="#" class="nav-link px-2 text-white">Clubes</a></li> 
+                     <li><a href="#" class="nav-link px-2 text-white">Informações</a></li> 
+                </ul> 
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search"> 
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search"> 
+                </form> 
+                <div class="text-end"> 
+                    <button href="logincads.html" type="button" class="btn btn-outline-light me-2">Login</button> 
+                    <button href="cadastro.html" type="button" class="btn btn-warning">Cadastrar</button> 
+                    <a href="#" class="btn btn-outline-light">
+                        <i class="bi bi-cart"></i> Carrinho
+                    </a>
+                
+                </div> 
+            </div> 
+        </div> 
+    </header>
+
+<!--Carrosel -->
+
+<div class="container mt-4">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://placehold.co/2000x700" class="d-block mx-auto img-fluid" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://placehold.co/800x400" class="d-block mx-auto img-fluid" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://placehold.co/800x400" class="d-block mx-auto img-fluid" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<!--Produtos em destaque usadno cards e grid -->
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <a href="produto.html">
+                <div class="card">
+                    <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Livro 1</h5>
+                        <p class="card-text">Descrição breve do livro.</p>
+                        <button class="btn btn-primary">Ver mais</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <a href="produto.html">
+                <div class="card">
+                    <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Livro 2</h5>
+                        <p class="card-text">Descrição breve do livro.</p>
+                        <button class="btn btn-primary">Ver mais</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <a href="produto.html">
+                <div class="card">
+                    <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Livro 3</h5>
+                        <p class="card-text">Descrição breve do livro.</p>
+                        <button class="btn btn-primary">Ver mais</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--Produtos mais vistos-->
+<h1>Produtos mais vistos </h1>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <a href="produto.html">
+                <div class="card">
+                    <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Livro 1</h5>
+                        <p class="card-text">Descrição breve do livro.</p>
+                        <button class="btn btn-primary">Ver mais</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <a href="produto.html">
+                <div class="card">
+                    <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Livro 2</h5>
+                        <p class="card-text">Descrição breve do livro.</p>
+                        <button class="btn btn-primary">Ver mais</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <a href="produto.html">
+                <div class="card">
+                    <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Livro 3</h5>
+                        <p class="card-text">Descrição breve do livro.</p>
+                        <button class="btn btn-primary">Ver mais</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--Ptodutos mais vendidos-->
+
+<h1>Produtos mais vendidos</h1>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <a href="produto.html"></a>
+            <div class="card">
+                <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Livro 1</h5>
+                    <p class="card-text">Descrição breve do livro.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <a href="produto.html"></a>
+            <div class="card">
+                <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Livro 2</h5>
+                    <p class="card-text">Descrição breve do livro.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <a href="produto.html"></a>
+            <div class="card">
+                <img src="https://placehold.co/200x300" class="card-img-top" alt="Livro">
+                <div class="card-body">
+                    <h5 class="card-title">Título do Livro 3</h5>
+                    <p class="card-text">Descrição breve do livro.</p>
+                    <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <!-- Informações da empresa -->
+        <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <p>&copy; 2025 Books e Livros</p>
+            <p>Rua Exemplo, 123, Cidade - Estado</p>
+        </div>
+
+        <!-- Espaço vazio para ajuste visual -->
+        <div class="col mb-3"></div>
+
+        <!-- Links de navegação -->
+        <div class="col mb-3">
+            <h5>Links úteis</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Informações do site</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Gêneros</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Livros mais vendidos</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Clubes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Produtos vendidos</a></li>
+            </ul>
+        </div>
+
+        <!-- Contato e redes sociais -->
+        <div class="col mb-3">
+            <h5>Contato</h5>
+            <p>Email: contato@bookselivros.com</p>
+            <p>Telefone: (00) 1234-5678</p>
+        </div>
+    </footer>
+</div>
+
+    
+</body>
+</html>
