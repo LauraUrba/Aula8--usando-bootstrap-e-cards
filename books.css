@@ -1,3 +1,8 @@
+
+body {
+    background-color: #213e60;
+}
+
 h1 {
     text-align: center; /* Centraliza o texto */
     color: #213e60 !important; /* Define a cor */
@@ -7,11 +12,6 @@ h1 {
     text-align: center;
     color: #213e60 !important;
     font-weight: bold;
-}
-
-body {
-    background-color: #213e60;
-    color: #f4f2ee;
 }
 
 footer {
